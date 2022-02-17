@@ -30,7 +30,7 @@ class _PremierEcranState extends State<PremierEcran> {
       body: (idees.isEmpty())
           ? Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Text('Ici mes futures idées !'),
+              child: Text('Ici mes futures idées ! '),
             )
           : AfficherIdees(
               idees: idees.getIdees(),
